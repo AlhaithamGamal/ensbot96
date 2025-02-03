@@ -114,7 +114,7 @@ def get_ens_opinion():
 # Function to check Twitter mentions and reply using Free API workaround
 def check_mentions():
     print("🔍 Checking Twitter mentions...")
-    search_url = "https://api.twitter.com/2/tweets/search/recent?query=@YourBotUsername"
+    search_url = "https://api.twitter.com/2/tweets/search/recent?query=@ensbot96"
     headers = {"Authorization": f"Bearer {BEARER_TOKEN}"}
 
     response = requests.get(search_url, headers=headers)
